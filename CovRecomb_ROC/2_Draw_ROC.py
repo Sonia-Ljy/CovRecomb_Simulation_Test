@@ -26,7 +26,7 @@ def bord_line(ax,bwith, line_color):
     ax.spines['bottom'].set_linewidth(bwith)
     
     
-dirpath = "/home/soniali/Desktop/03_CovRecomb/Simulation_Test/CovRecomb_ROC/"
+dirpath = "/home/soniali/Desktop/03_CovRecomb/CovRecomb_Simulation_Test/CovRecomb_ROC/"
 df = pd.read_csv(dirpath+"ROC_results.txt")
 df_need = df[df["seed_gen"] == 5]
 df_need_UA1 = df_need[df_need["UAB"] == 1]
@@ -97,63 +97,63 @@ bord_line(ax,bwith, line_color)
 plt.savefig(dirpath+"/FDR_UAB4.pdf")
 
 
-df_temp = df_temp.sort_values(by = "mean_lin_diff",ascending=True)
-name_list = [int(i) for i in list(df_temp["mean_lin_diff"])]
-x = list(range(len(name_list)))
-total_width, n = 0.8, 4
-width = total_width / n
-bwith = 0.5  
-line_color = "#c0c0c0"
-plt.cla()
-plt.figure(figsize=(8,3.2), dpi=300, facecolor='w')
-plt.bar(x, tpr1, width=width, label='XY', tick_label=name_list, fc='#8ECFC9')
-for i in range(len(x)):
-	x[i] = x[i] + width
-plt.bar(x, tpr2, width=width, label='XXYY', fc='#FFBE7A')
-for i in range(len(x)):
-	x[i] = x[i] + width
-plt.bar(x, tpr3, width=width, label='XXXYYY', fc='#FA7F6F')
-for i in range(len(x)):
-	x[i] = x[i] + width
-plt.bar(x, tpr4, width=width, label='XXXXYYYY', fc='#82B0D2')
-plt.ylim((-0.01, 1.02))
-plt.xlabel('Differential mutations between lineages', fontsize=8,fontweight = "bold")
-plt.ylabel('True Discovery Rate', fontsize=8,fontweight = "bold")
-font = {'weight': 'normal', 'size': 6}
-plt.legend(prop=font)
-y = MultipleLocator(0.2) 
-ax = plt.gca()
-ax.yaxis.set_major_locator(y)
-bord_line(ax,bwith, line_color)
-plt.savefig(dirpath+"/TPR_UAB4.pdf")
+# df_temp = df_temp.sort_values(by = "mean_lin_diff",ascending=True)
+# name_list = [int(i) for i in list(df_temp["mean_lin_diff"])]
+# x = list(range(len(name_list)))
+# total_width, n = 0.8, 4
+# width = total_width / n
+# bwith = 0.5  
+# line_color = "#c0c0c0"
+# plt.cla()
+# plt.figure(figsize=(8,3.2), dpi=300, facecolor='w')
+# plt.bar(x, tpr1, width=width, label='XY', tick_label=name_list, fc='#8ECFC9')
+# for i in range(len(x)):
+# 	x[i] = x[i] + width
+# plt.bar(x, tpr2, width=width, label='XXYY', fc='#FFBE7A')
+# for i in range(len(x)):
+# 	x[i] = x[i] + width
+# plt.bar(x, tpr3, width=width, label='XXXYYY', fc='#FA7F6F')
+# for i in range(len(x)):
+# 	x[i] = x[i] + width
+# plt.bar(x, tpr4, width=width, label='XXXXYYYY', fc='#82B0D2')
+# plt.ylim((-0.01, 1.02))
+# plt.xlabel('Differential mutations between lineages', fontsize=8,fontweight = "bold")
+# plt.ylabel('True Discovery Rate', fontsize=8,fontweight = "bold")
+# font = {'weight': 'normal', 'size': 6}
+# plt.legend(prop=font)
+# y = MultipleLocator(0.2) 
+# ax = plt.gca()
+# ax.yaxis.set_major_locator(y)
+# bord_line(ax,bwith, line_color)
+# plt.savefig(dirpath+"/TPR_UAB4.pdf")
 
 
-df_temp = df_temp.sort_values(by = "mean_lin_diff",ascending=True)
-name_list = [ int(i) for i in list(df_temp["mean_lin_diff"])]
-x = list(range(len(name_list)))
-total_width, n = 0.8, 4
-width = total_width / n
-bwith = 0.5  
-line_color = "#c0c0c0"
-plt.cla()
-plt.figure(figsize=(8,3.2), dpi=300, facecolor='w')
-plt.bar(x, fpr1, width=width, label='XY', tick_label=name_list, fc='#8ECFC9')
-for i in range(len(x)):
-	x[i] = x[i] + width
-plt.bar(x, fpr2, width=width, label='XXYY', fc='#FFBE7A')
-for i in range(len(x)):
-	x[i] = x[i] + width
-plt.bar(x, fpr3, width=width, label='XXXYYY', fc='#FA7F6F')
-for i in range(len(x)):
-	x[i] = x[i] + width
-plt.bar(x, fpr4, width=width, label='XXXXYYYY', fc='#82B0D2')
-plt.ylim((-0.01, 1.02))
-plt.xlabel('Differential mutations between lineages', fontsize=8,fontweight = "bold")
-plt.ylabel('False Positive Rate', fontsize=8,fontweight = "bold")
-font = {'weight': 'normal', 'size': 6}
-plt.legend(prop=font)
-y = MultipleLocator(0.2) 
-ax = plt.gca()
-ax.yaxis.set_major_locator(y)
-bord_line(ax,bwith, line_color)
-plt.savefig(dirpath+"/FPR_UAB4.pdf")
+# df_temp = df_temp.sort_values(by = "mean_lin_diff",ascending=True)
+# name_list = [ int(i) for i in list(df_temp["mean_lin_diff"])]
+# x = list(range(len(name_list)))
+# total_width, n = 0.8, 4
+# width = total_width / n
+# bwith = 0.5  
+# line_color = "#c0c0c0"
+# plt.cla()
+# plt.figure(figsize=(8,3.2), dpi=300, facecolor='w')
+# plt.bar(x, fpr1, width=width, label='XY', tick_label=name_list, fc='#8ECFC9')
+# for i in range(len(x)):
+# 	x[i] = x[i] + width
+# plt.bar(x, fpr2, width=width, label='XXYY', fc='#FFBE7A')
+# for i in range(len(x)):
+# 	x[i] = x[i] + width
+# plt.bar(x, fpr3, width=width, label='XXXYYY', fc='#FA7F6F')
+# for i in range(len(x)):
+# 	x[i] = x[i] + width
+# plt.bar(x, fpr4, width=width, label='XXXXYYYY', fc='#82B0D2')
+# plt.ylim((-0.01, 1.02))
+# plt.xlabel('Differential mutations between lineages', fontsize=8,fontweight = "bold")
+# plt.ylabel('False Positive Rate', fontsize=8,fontweight = "bold")
+# font = {'weight': 'normal', 'size': 6}
+# plt.legend(prop=font)
+# y = MultipleLocator(0.2) 
+# ax = plt.gca()
+# ax.yaxis.set_major_locator(y)
+# bord_line(ax,bwith, line_color)
+# plt.savefig(dirpath+"/FPR_UAB4.pdf")
