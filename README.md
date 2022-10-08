@@ -31,6 +31,8 @@ The scripts and results for calculating the FDR values and the ROC curves for th
 ## Convergent_evolution_effect
 To evaluate whether and how convergent evolution affects CovRecomb, we tested the CovRecomb method for its false discovery rate (FDR), the false positive rate (FPR), and true positive rate (TPR) values in different homologous mutation numbers or proportions. The scripts and results were respectively in ([Convergent_evolution_effect/HOMO_number](https://github.com/Sonia-Ljy/CovRecomb_Simulation_Test/tree/main/Convergent_evolution_effect/HOMO_number)) folder and ([Convergent_evolution_effect/HOMO_probability](https://github.com/Sonia-Ljy/CovRecomb_Simulation_Test/tree/main/Convergent_evolution_effect/HOMO_probability)) folder.
 
+<img src="img/Convergent_evolution_effect.png"/>
+
 
 ## Acknowledgements
 We would like to express our special thanks to the [CovSimulator](https://github.com/weigangq/cov-db/blob/master/scripts/CovSimulator.py) developers for their contributions in the field of simulation testing.
