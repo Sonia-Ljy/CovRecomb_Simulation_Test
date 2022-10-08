@@ -23,7 +23,7 @@ The scripts and results for comparing the coverage rate of recombinants in (idea
 
 
 ## CovRecomb_ROC
-The scripts and results for calculating the FDR values and the ROC curves for the CovRecomb method when using different numbers of sequential feature mutations.
+The scripts and results for calculating the false discovery rate (FDR) values and the receiver operating characteristic (ROC) curves for the CovRecomb method when using different numbers of sequential feature mutations.
 
 <img src="img/CovRecomb_ROC.png"/>
 
