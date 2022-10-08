@@ -1,0 +1,10 @@
+turns1:	0.4487
+turns2:	0.5181
+turns3:	0.6575
+turns4:	0.4535
+turns5:	0.5974
+turns6:	0.7077
+turns7:	0.7869
+turns8:	0.6761
+turns9:	0.5507
+turns10:	0.6212

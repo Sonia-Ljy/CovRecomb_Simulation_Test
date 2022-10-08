@@ -1,0 +1,10 @@
+turns1:	1.0
+turns2:	0.0
+turns3:	0.25
+turns4:	0.5
+turns5:	0.5
+turns6:	1.0
+turns7:	0.0
+turns8:	0
+turns9:	1.0
+turns10:	1.0

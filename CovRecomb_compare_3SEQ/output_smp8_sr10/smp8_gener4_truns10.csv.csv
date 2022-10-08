@@ -1,0 +1,8 @@
+,lin_diff_num,genera,turns,child_num,child_correct_AB_num,child_false_AB_num,all_recom_correct_rate,child_correct_AA_num,child_false_AA_num,all_yin_correct_rate,child_zhenyin_d,child_jiayang_b,child_jiayin_c,child_zhenyang_a,x_FPR,x_FDR_wufaxianlv,y_TPR,usetime
+s5smpl8gene4turns2RT0.1,46.0,4.0,2.0,4.0,0.0,1.0,0.0,1.0,2.0,0.3333,3.0,0.0,0.0,1.0,0.0,0.0,1.0,2517.0
+s5smpl8gene4turns3RT0.1,33.0,4.0,3.0,5.0,1.0,3.0,0.25,1.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,0.25,3151.0
+s5smpl8gene4turns4RT0.1,46.0,4.0,4.0,4.0,1.0,1.0,0.5,2.0,0.0,1.0,2.0,0.0,1.0,1.0,0.0,0.0,0.5,3460.0
+s5smpl8gene4turns5RT0.1,44.0,4.0,5.0,5.0,2.0,1.0,0.6667,1.0,0.0,1.0,1.0,0.0,1.0,3.0,0.0,0.0,0.75,4462.0
+s5smpl8gene4turns6RT0.1,56.0,4.0,6.0,6.0,2.0,0.0,1.0,4.0,0.0,1.0,4.0,0.0,0.0,2.0,0.0,0.0,1.0,5764.0
+s5smpl8gene4turns9RT0.1,57.0,4.0,9.0,3.0,1.0,0.0,1.0,2.0,0.0,1.0,2.0,0.0,0.0,1.0,0.0,0.0,1.0,2630.0
+s5smpl8gene4turns10RT0.1,46.0,4.0,10.0,2.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,2275.0

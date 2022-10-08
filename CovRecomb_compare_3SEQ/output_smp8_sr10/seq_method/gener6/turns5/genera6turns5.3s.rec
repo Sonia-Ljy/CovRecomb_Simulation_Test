@@ -1,0 +1,4 @@
+P_ACCNUM	Q_ACCNUM	C_ACCNUM	m	n	k	p	HS?	log(p)	DS(p)	DS(p)	min_rec_length	breakpoints
+gen4_gen3_lin3	lin2	gen4_gen4_gen1_lin2bk22670gen3_gen2_lin3/	18	62	62	0.000000000000	0	-16.2717	0.00000	6.412245e-13	6534	 0-326 & 22142-23369
+lin1	gen1_lin5	gen6_gen5_gen3_lin5bk25727gen2_lin1/	6	42	42	0.000000570427	0	-6.2438	0.00681	6.814953e-03	3229	 0-38 & 25437-26674
+lin1	gen4_gen3_lin3	gen6_gen5_gen3_gen2_lin3bk16480gen6_gen5_gen3_gen2_gen1_lin1/	31	49	49	0.000000000000	0	-20.6505	0.00000	2.680994e-17	12332	 0-213 & 16113-17571
