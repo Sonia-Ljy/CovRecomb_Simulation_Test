@@ -1,5 +1,5 @@
 # CovRecomb_Simulation_Test
-The simulation tests for the CovRecomb method using SARS-CoV-2 datasets.
+The simulation tests for the CovRecomb method by simulating SARS-CoV-2 evolution.
 
 
 ## Overview
