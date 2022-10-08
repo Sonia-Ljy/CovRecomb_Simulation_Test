@@ -1,5 +1,5 @@
 # CovRecomb_Simulation_Test
-The simulation test for the CovRecomb method using SARS-CoV-2 datasets.
+The simulation tests for the CovRecomb method using SARS-CoV-2 datasets.
 
 
 ## Overview
@@ -29,7 +29,7 @@ The scripts and results for calculating the FDR values and the ROC curves for th
 
 
 ## Convergent_evolution_effect
-To evaluate whether and how convergent evolution affects CovRecomb, we tested the CovRecomb method for its false discovery rate (FDR), the false positive rate (FPR), and true positive rate (TPR) values in different homologous mutation numbers or proportions. The scripts and results were respectively in ([Convergent_evolution_effect/HOMO_number](https://github.com/Sonia-Ljy/CovRecomb_Simulation_Test/tree/main/Convergent_evolution_effect/HOMO_number)) folder and ([Convergent_evolution_effect/HOMO_probability](https://github.com/Sonia-Ljy/CovRecomb_Simulation_Test/tree/main/Convergent_evolution_effect/HOMO_probability)) folder.
+To evaluate whether and how convergent evolution affects CovRecomb, we tested the CovRecomb method for its false discovery rate (FDR), the false positive rate (FPR), and true positive rate (TPR) values in different homologous mutation numbers or proportions. The scripts and results were respectively in ([Convergent_evolution_effect/HOMO_number](https://github.com/wuaipinglab/CovRecomb_Simulation_Test/tree/main/Convergent_evolution_effect/HOMO_number)) folder and ([Convergent_evolution_effect/HOMO_probability](https://github.com/wuaipinglab/CovRecomb_Simulation_Test/tree/main/Convergent_evolution_effect/HOMO_probability)) folder.
 
 <img src="img/Convergent_evolution_effect.png"/>
 
