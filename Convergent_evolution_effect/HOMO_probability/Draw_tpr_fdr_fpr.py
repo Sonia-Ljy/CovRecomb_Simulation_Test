@@ -24,7 +24,7 @@ def bord_line(ax,bwith, line_color):
     ax.spines['bottom'].set_linewidth(bwith)
     
     
-dirpath = "/home/soniali/Desktop/03_CovRecomb/Simulation_Test/HOMO_probability/"
+dirpath = "/home/soniali/Desktop/03_CovRecomb/CovRecomb_Simulation_Test/Convergent_evolution_effect/HOMO_probability/"
 df_need_UA4 = pd.read_csv(dirpath+"HOMO_probability.txt")
 df_draw = df_need_UA4[["mean_lin_diff","FPR","FDR","TPR","parallel_prop"]]
 

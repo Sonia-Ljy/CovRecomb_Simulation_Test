@@ -454,7 +454,7 @@ qmatrix = {'A': { "C": 0.1083, "G": 0.7000, "T": 0.1917 },
 
 
 seed_gen = 5 
-temp_file = code_path = "/home/soniali/Desktop/03_CovRecomb/Simulation_Test/HOMO_number/"
+temp_file = code_path = "/home/soniali/Desktop/03_CovRecomb/CovRecomb_Simulation_Test/Convergent_evolution_effect/HOMO_number/"
 creat_dir(temp_file)
 generations_list = [6]  
 turns_list = 5
